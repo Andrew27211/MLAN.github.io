@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1f4f0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logo {
+    color: #79522d;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.menu .navbar ul {
+    display: flex;
+}
+
+/*Cambios en el menú*/
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 0 20px;
+    color: #79522d;
+    display: block;
+    font-weight: 600;
+}
+/*Cambios en letras de menú*/
+.menu .navbar ul li a:hover{
+    color: #575d5f;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content{
+    display: flex;
+    padding: 80px 0 0 0;
+}
+
+.header-txt {
+    flex-basis: 50%;
+    padding-right: 30px;
+}
+
+.header-txt span {
+    font-size: 25px;
+    text-transform: capitalize;
+    color: #79522d;
+    font-weight: 600;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.header-txt h1 {
+    font-size: 60px;
+    line-height: 1;
+    color: #79522d;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-bottom: 15px;
+
+}
+/*Letra parrafo*/
+
+p{
+    font-size: 18px;
+    color: #0d0d0e;
+    margin-bottom: 20px; /*Margen del botón con el parrafo*/
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 14px 25px;
+    background-color: #79522d;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(33, 40, 105, 0.2);
+}
+
+.header-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 40%;
+
+}
+
+.brands{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 25px;
+    box-shadow: 0 15px 20px rgba(33, 40, 105, 0.2);
+}
+
+.brands-1 {
+    flex-basis: calc(20% - 20px);
+}
+
+.brands-1 p {
+   font-size: 25px;
+   line-height: 1;
+   font-weight: 600;
+   color: #79522d;
+   margin: 0;
+}
+
+.brands-1 img {
+    width: 150px;
+}
+/*Edición de Servicios*/
+
+.services {
+    padding: 50px 0;
+    text-align: center;
+}
+
+h2 {
+     font-size: 40px;
+     line-height: 1;
+     color: #79522d;
+     margin-bottom: 30px;
+}
+
+.subtitulo-estilo {
+    font-size: 40px;
+    line-height: 1;
+    color: #79522d;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 1;
+    color: #79522d;
+    margin-bottom: 30px;
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 1;
+    color: #79522d;
+    margin-bottom: 2px;
+}
+/*Edición de Servicios poner 
+cuadros horizontal*/
+
+.services-content {
+    margin-top: 45px;
+    display:flex;
+    justify-content: space-between;
+}
+.services-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services-1 {
+    flex-basis: calc(30% - 20px); 
+    margin-bottom: 20px; 
+    background-color: #F8FCFE;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(33, 40, 105, 0.2);
+    border-radius: 25px;
+    color: #79522d;
+    width: 30%;
+}
+
+.services-1:hover {
+    background-color: #79522d;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.services-1 img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.services-1 h3 {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.services-2 {
+    flex-basis: calc(30% - 20px); 
+    margin-bottom: 15px;
+    background-color: #F8FCFE;
+    padding: 15px;
+    box-shadow: 0 0 20px rgba(33, 40, 105, 0.2);
+    border-radius: 25px;
+    color: #79522d;
+    width: 30%;
+}
+
+.services-2:hover {
+    background-color: #79522d;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.services-2 img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.services-2 h3 {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+
+
+/*Seccion de información #3*/
+.information {
+    padding: 50px 0 100px 0;
+    display: flex;
+    align-items: center;
+}
+/*Tamaño imagen*/
+.information-img{
+    flex-basis: 50%;
+}
+
+.information-txt {
+    flex-basis: 50%;
+    padding-left: 20px;
+    line-height: 1.5;
+}
+
+/*Seccion de información #4*/
+
+.about {
+    padding: 50px 0;
+    background-color: center;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.about h2 {
+    text-align: left;
+}
+
+.about-content {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-txt {
+    flex-basis: 50%;
+    padding-right: 80px;
+}
+
+/* Estilos para el párrafo dentro de la sección "about" */
+.about-txt p {
+    margin: 0; /* Elimina los márgenes */
+    padding: 0; /* Elimina el relleno */
+}
+
+/* Estilos para los elementos "blockquote" dentro de la sección "about" */
+.about-txt blockquote {
+    margin: 0;
+    padding: 0;
+    border-left: 2px solid #333; /* Agrega un borde izquierdo */
+    padding-left: 20px; /* Espacio entre el borde y el texto */
+    margin-bottom: 20px; /* Espacio entre los bloques de cita */
+}
+
+/* Estilos para la lista "ol" dentro de la sección "about" */
+.about-txt ol {
+    padding: 0;
+    margin: 0;
+    list-style-type: decimal;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los elementos "li" dentro de la lista "ol" */
+.about-txt li {
+    margin-bottom: 10px; /* Espacio entre los elementos de la lista */
+}
+/*Seccion de contacto #4*/
+
+.contact{
+    padding: 120px 0;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+/*Parte de correo*/
+input {
+    width: 300px;
+    padding: 17px;
+    border: 0;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(33, 40, 105, 0.2);
+    margin-right: 20px;
+}
+
+.footer {
+    background-color: #c1a890;
+    padding: 50px 0;
+}
+/*Parte de Footer información General*/
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link h3 {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.link a {
+    color: #F8FCFE;
+    font-size: 17px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.link a:hover {
+    color: #575d5f;
+}
+
+.footer-1 {
+    background-color: #c1a890;
+    padding: 50px 0;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.banner {
+    position: relative;
+    height: 250px;
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+
+.banner img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 100%;
+}
+
+
+/*Parte de Footer información General*/
+.footer-content-1 {
+    display:inline-flexbox;
+    justify-content: space-between;
+}
+
+.link h3 {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.link a {
+    color: #F8FCFE;
+    font-size: 17px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.link a:hover {
+    color: #575d5f;
+}
+@media (max-width:991px){
+
+    .menu {
+        padding: 20px;
+        position: relative;
+    }
+    .menu label {
+        display: initial;
+    }
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #cccccc;
+        display: none;
+    }
+
+    .menu .navbar ul {
+        flex-direction: column; 
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+        padding: 20px 0;
+    }
+    .menu .navbar ul li a:hover{
+        color: #181818;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header-content {
+        padding: 20px 30px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .header-txt {
+        padding: 0;
+        margin-bottom: 15px;
+    }
+    p{
+        margin-bottom: 30px;
+    }
+
+    .brands {
+        padding: 30px;
+        margin: 0 30px;
+        flex-direction: column;
+    }
+
+    .brands-1 {
+        text-align: center;
+    }
+
+    .brands-1 p {
+        margin-bottom: 30px;
+    }
+
+    .brands-1 img {
+        margin-bottom: 10px;
+    }
+
+    .services {
+        padding: 50px 30px 30px 30px;
+    }
+
+    .services-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space; /* Ajusta según tus necesidades */
+        align-items: center; /* Ajusta según tus necesidades */
+        margin: auto;
+    }
+
+    .services-1 {
+        margin-bottom: 50px;
+        width: 80%;
+    }
+    .services-2 {
+        margin-bottom: 30px;
+        width: 80%;
+    }
+    
+    .information {
+        padding: 0 30px 30px 30px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .information-txt {
+        padding: 0 0 30px 0;
+    }
+
+    .information-img {
+        order:2
+    }
+    .about {
+        padding: 30px;
+    }
+
+    .about-content {
+        flex-direction: column;
+        text-align:left;
+    }
+
+    .about-txt {
+        flex-basis: 100%; /* Ocupa todo el ancho disponible */
+        padding-right: 0; /* Elimina el relleno a la derecha */
+    }
+
+    .contact {
+        padding: 50px 80px;
+    }
+
+    .form {
+        flex-direction: column;
+    }
+    input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        padding: 30px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .copyright-message {
+        color: #fff;
+        text-align: left;
+    }
+
+}
+    /*<!--<div class="copyright-message">
+        <p>&copy; 2023 MLAN - Andrés Numpaque "Corporación Universitaria Minuto de Dios</p>
+    </div> -->
+
